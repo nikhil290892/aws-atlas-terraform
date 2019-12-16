@@ -7,7 +7,7 @@ This project aims to provide a very straight-forward example of using AWS and Mo
 
 * Terraform v0.12
 * An AWS account - provider.aws: version = "~> 2.39"
-* An MongoDB Atlas account - provider.mongodbatlas: version = "~> 0.3"
+* A MongoDB Atlas account - provider.mongodbatlas: version = "~> 0.3"
 
 ## Usage
 
