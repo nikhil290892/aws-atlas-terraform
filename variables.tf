@@ -16,7 +16,7 @@ variable "atlas_region" {
   description = "Atlas Region"
 }
 variable "aws_region" {
-    default = "us-west-2"
+    default = "us-east-1"
   description = "AWS Region"
 }
 variable "atlas_dbuser" {
@@ -25,9 +25,12 @@ variable "atlas_dbuser" {
 variable "atlas_dbpassword"{
     description = "The db user passwd for Atlas"
 }
-
-
-
-
-
-
+variable "aws_account_id" {
+  description = "My AWS Account ID"
+}
+variable "atlasorgid" {
+  description = "Atlas Org ID"
+}
+variable "atlas_vpc_cidr" {
+  description = "Atlas CIDR"
+}
