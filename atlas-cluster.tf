@@ -37,7 +37,7 @@ resource "mongodbatlas_database_user" "db-user" {
       role_name = "readWrite"
       database_name = "admin"
   }
-  depends_on = ["mongodbatlas_project.aws_atlas"]
+  depends_on = [mongodbatlas_project.aws_atlas]
 }
 resource "mongodbatlas_network_container" "atlas_container" {
   atlas_cidr_block = var.atlas_vpc_cidr
